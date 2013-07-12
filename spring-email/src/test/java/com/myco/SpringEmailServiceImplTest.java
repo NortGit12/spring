@@ -15,7 +15,7 @@ public class SpringEmailServiceImplTest extends AbstractServiceImplTest {
     public void testSendEncouragingEmailValidSimpleEmail() {
         List<String> recipientsList = new ArrayList<>();
         recipientsList.add("jnorton@ancestry.com");
-        recipientsList.add("jvincent@ancestry.com");
+//        recipientsList.add("jvincent@ancestry.com");
 //        recipientsList.add("jeff12ntn@gmail.com");
         String sender = "donotreply@ancestry.com";
         String subject = "This just in ...";
@@ -24,7 +24,6 @@ public class SpringEmailServiceImplTest extends AbstractServiceImplTest {
         String attachmentName = null;
 
         springEmailService.sendEncouragingEmail(recipientsList, sender, subject, adjective, attachmentPath, attachmentName);
-        System.out.println("How did it go?");
     }
 
 }
