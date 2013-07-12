@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta name="description" content="description">
+    <body>
+        Dear You,<p/>
+
+        It's so good to know that you're out there :)  I hope you have a great day!  Keep your chin up and know that you are ... <b style="font-weight:bold; color:green; font-size:1.5em;">${adjective}</b>!
+
+        <p style="font-weight:bold; color:blue; font-size:1.2em;">Have a terrific day!</p>
+
+        <br/>
+        Great People Fan Club ;)
+
+    </body>
+</html>

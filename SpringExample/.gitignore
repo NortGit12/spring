@@ -1,0 +1,14 @@
+/build
+/.project
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Netbeans
+.nbsettings/
+nb-configuration.xml
+nbactions.xml
+
+rebel.xml
